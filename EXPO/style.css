@@ -1,0 +1,218 @@
+/*
+#DC3D24
+#232B2B 
+#FFFFFF
+#E3AE57   
+*/  
+html, body, h1, h2, h3, h4, h5, h6, p, a, div, ul, li {
+	padding:100;
+	margin:10;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 100%;
+	font-size: 1.05em; 
+    text-transform: none; 
+    font-weight: 700;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+html { 
+    background: #232B2B; 
+}
+h4 { 
+font-size: 1.05em; 
+    text-transform: none; 
+    font-weight: 700; 
+}
+h2 { 
+    font-size: 1.6em;
+    padding: 20px 0 5px; 
+    text-transform: none; 
+    weight: 700; 
+}	
+h3 { 
+    font-size: 1.15em; 
+    text-transform: none; 
+    font-weight: 700;  
+}
+h4 { 
+    font-size: 1.05em; 
+    text-transform: none; 
+    font-weight: 700;  
+}
+p { 
+    padding: 10px 0; 
+    font-size: .9em; 
+    line-height: 1.5em; 
+    color: #FFFFFF; 
+    text-transform: none; 
+    font-weight: 700; 
+}
+
+header {   
+    width: 100%;
+    height: 190px;
+    border-top: 11px solid #DC3D24;
+    background: #232B2B ;
+    position: relative;
+    z-index:2;
+}
+
+.logo {
+    width: 336px;
+    height: 100px;
+    position: absolute;
+    left: 550px;
+    font-size: 50px;
+    text-shadow: 3px 3px #E3AE57;
+}
+
+li {
+    list-style-type: none; 
+}
+nav {
+    width: 100%;
+    background: #232B2B; 
+    position: absolute;
+    left: 0;
+    top: 120px;
+    bottom: 0;  
+}
+
+nav ul {
+	width: 563px;
+	overflow: auto;
+	margin:auto;
+}
+
+nav ul li {
+	float: left;
+  	border-right: 1px solid #232B2B; // ортасы
+	list-style: none;
+}
+
+nav ul li a:link, nav ul li a:visited{
+	width: 140px;
+	padding: 6px 0;
+    color: #fff;	
+    background-color: #E3AE57;	
+    font-size: .8em;
+    text-decoration: none;
+    text-align: center;
+    display:block;	
+    font-size: 12px;
+}
+
+nav ul li: hover a, nav ul li:active a{ 
+    background-color: #DC3D24; 
+}
+
+nav ul li   a.current {
+    background-color: #E3AE57; 
+    cursor: default;
+    
+}
+li:last-child {
+	border-right:none;
+}
+#featureImage {
+    position: relative; 
+    object-position: center; 
+    width:12$("header").css({
+        "height": "29", "border-top": "none", "position": "fixed", "top": "0"
+    });00px;
+    display:block;
+    margin: auto; 
+}
+.lala {
+    position: relative; 
+    object-position: center; 
+    width:12$("header").css( {"height": "29", "border-top": "none", "position": "fixed", "top": "0"} );00px;
+    display:block;
+    margin: auto;
+}
+main {
+    width: 1000px;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    margin: 0 auto 0;
+
+}
+.infoBox1{
+    width: 940px;
+    margin: -50px auto;
+    padding: 25px 30px 30px;
+	background: #E3AE57;
+}
+div.infoBox{
+    width: 940px;
+    margin: -50px auto;
+    padding: 25px 30px 30px;
+	background: #E3AE57;
+}
+div.infoBox h3{
+    width: 550px;
+	margin: 0 0 3px;
+	padding: 0 0 4px;
+    border-bottom: 1px solid #232B2B ;  // точка мб
+}
+div.infoBox p{
+    width: 500px;
+    font-size: 18px;
+}
+div.infoBox a:visited,div.infoBox a:link{
+    color: #232B2B;
+}
+div.infoBox a:hover,div.infoBox a:active{
+    color: white;transition: color .5s;
+}
+div img.floatRightImg{
+	margin: -40px 10px 20px ;
+	padding: 7px;
+	border: 1px solid #CCC;
+    float: right;   
+}
+.lala {
+    text-align: center; 
+}
+.photo{
+    text-align: center;
+}
+
+footer {
+    background: #666;
+    display: flex;
+}
+
+footer h4 {
+    padding: 10px 0 10px 0;
+    color: #ddd;
+    display: flex;
+}
+
+footer .address {
+	font-size: .75em;
+    line-height: 1.6em;
+    color: #bbb;
+    display: flex;
+	
+}
+.address  a:link,
+.address  a:visited {
+    color:#bbb 
+        
+}
+.address  a:hover,
+.address  a:active {
+	color:white;
+}
+
+footer {
+	padding-top: 25px;
+    padding-bottom: 60px;
+}
+.columnWrapper {
+	width:900px;
+	margin: auto;
+    
+}
